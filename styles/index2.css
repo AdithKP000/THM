@@ -5,6 +5,7 @@ body{
 
 .navbar{
     z-index: 1;
+   
 }
 .navbar-brand{
 width: 55vw;
@@ -18,6 +19,9 @@ width: 55vw;
 
 .navbar-nav .nav-link:hover {
     color: #ff9933 !important;
+  }
+  .navbar-nav a{
+    font-family: Montserrat;
   }
 
   .bg-dark {
@@ -436,7 +440,7 @@ width: 55vw;
 
   color: #f4f4f4;
   padding: 50px 10px 10px 40px;
-  border: 2px solid #f4f4f4;
+  box-shadow: 0 0 30px rgba(255, 153, 51, 0.3);
   border-radius: 25px;
   /* margin-left: 10px;
   margin-right: 10px; */
@@ -445,7 +449,7 @@ width: 55vw;
 
 /* MAP */
 .footermain {
-  border: 1px solid #f4f4f4;
+  box-shadow: 0 0 30px rgba(255, 153, 51, 0.3);
   border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
@@ -459,7 +463,7 @@ width: 55vw;
 .footeraside {
 color: #f4f4f4;
 padding: 50px 10px 20px 10px;
-border: 1px solid #ccc;
+box-shadow: 0 0 30px rgba(255, 153, 51, 0.3);
 border-radius: 25px;
 }
 /* MENU LINKS */
@@ -550,7 +554,7 @@ p.fonticon i:hover {
 
     .registerButton{
         top: 57%; 
-        left: 27%
+        left: 31%
     }
 
     .row-cards {
