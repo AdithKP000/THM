@@ -407,7 +407,7 @@ width: 55vw;
   font-size: 4vw;
   font-family: Arial, Helvetica, sans-serif;
   top:48vw;
-  left: 0vw;
+  text-align: center;
   position: relative;
 }
 .footerbody {
@@ -428,6 +428,7 @@ width: 55vw;
       align-content: center;
 
   }
+  
 }
 /* CONTACT */
 .footerleft {
@@ -485,25 +486,25 @@ a {
         height: 10vh;
         left: 48%;
         width:42vh;
-        top: 37%;
+        top: 39%;
     }
     
     .landingtext{
-    top: 43%; 
+    top: 45%; 
     left: 10%;
     font-size: 2vh;
     }
     
     .datetxt{
-    top: 47%; 
+    top: 49%; 
     left: 26%;
     font-size: 3.6vh;
     font-weight: 700;
     }
 
     .registerButton{
-        top: 55%; 
-        left: 30%
+        top: 57%; 
+        left: 27%
     }
 
     .row-cards {
@@ -574,6 +575,10 @@ a {
         font-size: 3vh;
         margin-top: 10vh;
         margin-left: 35vw;
+      }
+      .footerheader{
+        font-size: 3vh;
+       text-align: center;
       }
     }
 
