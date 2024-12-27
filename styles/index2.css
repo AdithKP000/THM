@@ -416,7 +416,7 @@ width: 55vw;
   color: #fff;
   font-size: 4vw;
   font-family: Arial, Helvetica, sans-serif;
-  top:48vw;
+  top:40vw;
   text-align: center;
   position: relative;
 }
@@ -425,7 +425,7 @@ width: 55vw;
   grid-template-columns: 1fr;
   gap: 10px;
   padding: 10px;
-  margin-top: 50vw;
+  margin-top: 43vw;
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 10vw;
@@ -533,7 +533,7 @@ p.fonticon i:hover {
         object-fit: cover;
         object-position: center;
         overflow: hidden;
-        filter: brightness(30%); 
+        filter: brightness(15%); 
 
     }
 
@@ -620,7 +620,7 @@ p.fonticon i:hover {
         left: auto;
       }
       .carousel-control-prev,.carousel-control-next,.carousel-indicators{
-        top:-10vw;
+        top:-5vw;
       }
       .carousel-indicators{
         top:auto;
@@ -644,11 +644,13 @@ p.fonticon i:hover {
       p.fonticon {
         color: #fff;
         font-size: 1.8vh;
+        text-align: center;
         
       
       }
       .fonticon i{
       padding: 2vh;
+     
     }
 
     .end{
