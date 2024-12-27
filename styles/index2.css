@@ -28,7 +28,7 @@ width: 55vw;
 
     height: 85vh;
     width:100%;
-    filter: brightness(60%); 
+    filter: brightness(30%); 
     z-index: -1;
     position: relative;
  
@@ -278,6 +278,7 @@ width: 55vw;
 .regtext{
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10vw;
 }
 
  
@@ -448,7 +449,11 @@ width: 55vw;
   border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
+  height: 60vh;
+  width: 50vw;
 }
+
+
 /* MAP */
 /* MENU LINKS */
 .footeraside {
@@ -461,6 +466,10 @@ border-radius: 25px;
 a {
   text-decoration: none;
 }
+
+
+
+
 @media (max-width:800px)
 {
   .footeraside p{
@@ -470,16 +479,53 @@ a {
 /* FOOTER */
 
 
+
+p.fonticon {
+  color: #fff;
+  font-size: 1.8vw;
+  
+
+}
+.fonticon i{
+padding: 2vw;
+text-decoration: none;
+color: #fff;
+}
+p.fonticon i:hover {
+  color: #ff9933;
+}
+
+.end{
+  border:1px solid white;
+  height: 10vh;
+  width: 100%;
+  padding-left: 0%;
+  margin-left: 0px;
+  border-radius: 2vw;
+  margin-bottom: 1vw;
+}
+.end p{
+  color: #fff;
+  padding: 1vw;
+  text-align: center;
+  opacity: 70%;
+  font-size: 1vw;
+}
+
+
+
 @media (max-width: 800px) {
     body{
         overflow-x: hidden;
     }
-    .landing {
+    .landing{
         height: 100vh;
         width: 100vw;
         object-fit: cover;
         object-position: center;
         overflow: hidden;
+        filter: brightness(30%); 
+
     }
 
     .logoimg{
@@ -580,5 +626,28 @@ a {
         font-size: 3vh;
        text-align: center;
       }
+
+      .footermain {
+        height: 40vh;
+        width: 80vw;
+        border-radius: 2vh;
+      }
+      p.fonticon {
+        color: #fff;
+        font-size: 1.8vh;
+        
+      
+      }
+      .fonticon i{
+      padding: 2vh;
+    }
+
+    .end{
+      height: 5vh;
+
+    }
+    .end p{
+      font-size: 1.2vh;
+    }
     }
 
